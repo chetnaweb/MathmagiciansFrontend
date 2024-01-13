@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Mathmagicians/Educators</title>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li
+ {
+  float:right;
+}
+
+li a 
+{
+  padding: 8px;
+  background-color: #dddddd;
+}
+.prt1{background-image: linear-gradient(brown, white);border: 0px solid red; padding: 30px;}
+h1{color:black;}	
+h2{color:white;}
+h3{color:#4CAF50;}	
+
+.prt2 
+{
+	
+	background-image:linear-gradient(skyblue,white);
+	border: 1px solid blue; 
+	padding: 100px;
+    flex-direction:row;
+    height: 50vh;
+    justify-content:center;
+}
+.prt21{border:2px black;float:left;width:30%;}
+.prt22{border:2px black;float:left;width:30%;}
+
+.input1{background-color: #4CAF50;color:black;border:darkgreen;
+    padding: 10px 30px;font-size: 30px;cursor: pointer;border-radius:20px;}
+
+	
+	
+</style>
+</head>
+
+<body>
+<div class="prt1">
+<h1><marquee behavior="scroll" direction="left">Mathmagicians&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	<br>Welcoming you to the realm of mathematics with vibrant illustrations and examples</h1></marquee>
+<ul>
+  <li><a href="http://127.0.0.1:5500/signup.html" target="_self">Signup</li>
+    <li><a href="http://127.0.0.1:5500/login.html" target="_self">Login</li>
+    <li><a href="http://127.0.0.1:5500/learning.html" target="_self">Learning</a></li>
+    <li><a href="http://127.0.0.1:5500/educators.html" target="_self">Educators</a></li>
+    <li><a href="http://127.0.0.1:5500/Mathmagicians.html" target="_self">Users</a></li>
+   
+</ul>
+</div>	
+
+
+<div class="prt2">
+<h1><b>Teachers, bravely master<br> remote learning<br></b></h1>
+<h2>Give your kids access to the most captivating educational<br>
+ experience no matter where they are.<br> Teachers can use this for free, forever!
+ </h2></b>
+ <input type="button" class="input1"  onclick="teacherform()" value="Teacher use for, Free"/>
+ <a id="anchor1" href="teacherform.html"></a>
+<p id="demo1"></p>
+<script>
+function teacherform()
+{
+	window.location.href="teacherform.html";
+}
+</script><br><br>
+
+</div>
+
+
+</body>
+</html>

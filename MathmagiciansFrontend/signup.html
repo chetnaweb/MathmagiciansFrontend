@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Mathmagicians/signup</title>
+<style>
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li
+ {
+  float:right;
+}
+
+li a 
+{
+  padding: 8px;
+  background-color: #dddddd;
+}
+.prt1{background-image: linear-gradient(brown, white);border: 0px solid red; padding: 30px;}
+h1{color:black;text-align:center;border:darkgreen;}	
+h2{color:white;}
+h3{color:#4CAF50;}
+
+.input1{background-color: #4CAF50;color:black;border:darkgreen;
+    padding: 10px 30px;font-size: 30px;cursor: pointer;border-radius:40px;}
+.input2{background-color: #4CAF50;color:black;border:darkgreen;
+    padding: 10px 30px;font-size: 30px;cursor: pointer;border-radius:40px;}
+.input3{background-color: #4CAF50;color:black;border:darkgreen;
+    padding: 10px 30px;font-size: 30px;cursor: pointer;border-radius:40px;}
+
+
+img{border-radius:30px; max-width:100%;}
+.prt2{background-image: linear-gradient(brown, white);border: 0px solid red; padding: 30px;}
+.prt3 
+{
+	
+	background-image:linear-gradient(skyblue,white);
+	border: 1px solid blue; 
+	padding: 100px;
+    flex-direction:row;
+    height: 50vh;
+    justify-content:center;
+}
+.prt31{border:2px black;float:left;width:30%;}
+.prt32{border:2px black;float:left;width:30%;}
+.prt33{border:2px black;float:left;width:30%;}
+
+</style>
+</head>
+
+
+
+<body>
+<div class="prt1">
+<h1><marquee behavior="scroll" direction="left">Mathmagicians&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	<br>Welcoming you to the realm of mathematics with vibrant illustrations and examples</h1></marquee>
+<ul>
+  <li><a href="http://127.0.0.1:5500/signup.html" target="_self">Signup</li>
+    <li><a href="http://127.0.0.1:5500/login.html" target="_self">Login</li>
+    <li><a href="http://127.0.0.1:5500/learning.html" target="_self">Learning</a></li>
+    <li><a href="http://127.0.0.1:5500/educators.html" target="_self">Educators</a></li>
+    <li><a href="http://127.0.0.1:5500/Mathmagicians.html" target="_self">Users</a></li>
+    
+</ul>
+</div>	
+<div class="prt2">
+<h1>Sign Up as</h1> 
+</div>
+
+<div class="prt3">
+<div class="prt31">
+<img src="images\maths3.jpg" width="250px"  >
+<input type="button" class="input1"  onclick="parentform()" value="I'm a parent"/><br><br>
+ <a id="anchor1" href="parentform.html"></a>
+<p id="demo1"></p>
+<script>
+function parentform()
+{
+	window.location.href="parentform.html";
+}
+</script><br><br>
+</div>
+
+
+<div class="prt32">
+<img src="images\maths3.jpg" width="250px"  >
+<input type="button" class="input2" onclick="teacherform()"  value="I'm a teacher"/>
+<a id="anchor1" href="teacherform.html"></a>
+<p id="demo1"></p>
+<script>
+function teacherform()
+{
+	window.location.href="teacherform.html";
+}
+</script><br><br>
+</div>
+
+
+<div class="prt33">
+<img src="images\maths3.jpg" width="250px"  >
+<input type="button" class="input3"  onclick="studentform()" value="I'm a student"/>
+<a id="anchor1" href="studentform.html"></a>
+<p id="demo1"></p>
+<script>
+function studentform()
+{
+	window.location.href="studentform.html";
+}
+</script><br><br>
+</div>
+</div>
+</div>
+
+</body>
+</html>
